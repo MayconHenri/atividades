@@ -1,14 +1,20 @@
-maior = -9999999999999999999999
-menor = 99999999999999999999999
-num = 0
+final = int (input ("Digite um número: "))
+list = []
+i = 1
+div = 0
+while i<=final:
+    num = 1
+    cont = 0
 
-while num>=0:
-    num=int(input("Digite um número: "))
+    while i>=num :
+        if i % num == 0:
+            cont+=1
+        div+=1
+        num+=1
 
-    if (num>maior):
-        maior = num
-    if (num<menor) and (num>=0):
-        menor = num
+    if cont == 2:
+        list.append(i)
+    i+=1
 
-print (f'O Maior número digitado foi: {maior}')
-print (f'O Menor número digitado foi: {menor}')
+print (f'Os números primos de 1 a {final} são: {list}')
+print (f'Quantidade de divisões feitas para localiza-los: {div}')
