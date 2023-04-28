@@ -1,12 +1,7 @@
-#usando FOR
-for i in range (1000, 0,-1):
-    if (i%3==0) and (i%5==0):
-        print (i)
+zoa = {0: "Macaco", 1: "Galo",2: "Cão",3: "Porco", 4:"Rato", 5: "Boi", 6: "Tigre", 7:"Coelho", 8:"Dragão", 9:"Serpente", 10:"Cavalo", 11: "Carneiro"}
 
-#usando WHILE
-i = 1000
-while i>=1:
-    if (i%3==0) and (i%5==0):
-       print (i)
-    i-=1
-    
+anonasc = int (input("Ano de nascimento: "))
+
+veri = anonasc % 12
+print (zoa[veri])
+
