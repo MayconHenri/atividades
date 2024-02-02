@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual seu nome?');
+        document.write(`Seu nome tem ${nome.length} letras <br>`);
+        document.write(`E seu nome em maísculo ${nome.toUpperCase()} <br>`);
+
+        var n1 = window.prompt('Qual valor para ser convertido para reais?');
+        n1 = parseFloat(n1);
+        document.write(`O valor ${n1.toFixed(2).replace('.', ',')} em reais é: ${n1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`);
+        n1.toUpperCase 
+    </script>
+</body>
+</html>
