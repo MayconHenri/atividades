@@ -1,2 +1,2 @@
 # atividades
-atividade desenvolvidas em python para estudo
+atividade desenvolvidas para estudo
