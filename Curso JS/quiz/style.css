@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: #f1f5f9;
+  background: linear-gradient(0deg, #334155, #334155),
+    linear-gradient(0deg, #0f172a, #0f172a);
+  border: 1px solid rgba(51, 65, 85, 1);
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#container {
+  width: 640px;
+  margin: 64px auto 230px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 36px;
+  margin-left: 8px;
+}
+
+hr {
+  width: 640px;
+  margin-top: 24px;
+  border: 0.5px solid;
+}
+
+.question {
+  margin-top: 20px;
+  width: 640px;
+  background-color: #1a202c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #334155;
+}
+
+.options {
+  width: 600px;
+  background-color: #2d3748;
+  border-radius: 8px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #334155;
+}
+
+.options div {
+  display: flex;
+  align-items: center;
+  border: 1px solid #334155;
+}
+
+.options label {
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.options input:checked + label {
+  background-color: #4a5568;
+  color: #a3e635;
+}
+
+#button {
+  width: 70px;
+  color: white;
+  padding: 10px;
+  border: 2px solid #1e293b;
+  background-color: #4a5568;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#acertos {
+  text-align: center;
+  color: #000000;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  background: #a3e635;
+  width: 100%;
+  height: 52px;
+  gap: 10px;
+}
+
+#resultado_fin {
+  margin: 64px auto 230px;
+  width: 540px;
+  background-color: #1a202c;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #1a202c;
+  padding: 20px;
+  color: #f1f5f9;
+}
+
+#txt_resul,
+#txt_resul2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#pergunta1,
+#pergunta2 {
+  border: 1px solid #4a5568;
+}
+
+#insta {
+  margin-top: 140px;
+  color: white;
+  text-align: right;
+  font-style: italic;
+  border: 1px solid red;
+}
+#per1,
+#per2 {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+#button {
+  width: 70px;
+  margin: 0 auto;
+}
+#button2 {
+  display: flex;
+  text-align: center;
+}

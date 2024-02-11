@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste seus conhecimentos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="estilo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Teste seus conhecimentos</h1>
+      <hr />
+
+      <div class="question" id="pergunta1">
+        <div id="per1">Pergunta 1</div>
+        <div class="options" id="alt_per1">
+          <div>
+            <input type="radio" id="input_1_1" name="opcao0" />
+            <label for="input_1_1" id="opcao0_alternativa1"
+              >Alternativa 1</label
+            >
+          </div>
+
+          <div>
+            <input type="radio" id="input_1_2" name="opcao0" />
+            <label for="input_1_2" id="opcao0_alternativa2"
+              >Alternativa 2</label
+            >
+          </div>
+
+          <div>
+            <input type="radio" id="input_1_3" name="opcao0" />
+            <label for="input_1_3" id="opcao0_alternativa3"
+              >Alternativa 3</label
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="question" id="pergunta2">
+        <div id="per2">Pergunta 2</div>
+        <div class="options" id="alt_per2">
+          <div>
+            <input type="radio" id="input_2_1" name="opcao1" />
+            <label for="input_2_1" id="opcao1_alternativa1"
+              >Alternativa 1</label
+            >
+          </div>
+
+          <div>
+            <input type="radio" id="input_2_2" name="opcao1" />
+            <label for="input_2_2" id="opcao1_alternativa2"
+              >Alternativa 2</label
+            >
+          </div>
+
+          <div>
+            <input type="radio" id="input_2_3" name="opcao1" />
+            <label for="input_2_3" id="opcao1_alternativa3"
+              >Alternativa 3</label
+            >
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div id="button2">
+        <input id="button" type="button" value="Enviar" onclick="verificar()" />
+      </div>
+    </div>
+    <div id="resultado_fin" style="display: none"></div>
+    <footer>
+      <div id="footer">
+        <p id="acertos"><strong> Acertos: </strong>(0 de 10)</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
